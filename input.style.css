@@ -1,0 +1,18 @@
+input {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #03a8f45e;
+  font-size: 3rem;
+  color: #fdfdfd;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: transparent !important;
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 23%;
+}

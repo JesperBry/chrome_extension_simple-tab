@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>New Tab</title>
+    <link rel="stylesheet" type="text/css" href="background.style.css" />
+    <link rel="stylesheet" type="text/css" href="input.style.css" />
+    <link rel="stylesheet" type="text/css" href="clock.style.css" />
+    <link rel="stylesheet" type="text/css" href="animate.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="animated animatedFadeInUp fadeInUp">
+      <div id="time" style="visibility: hidden"></div>
+      <div id="dailyText" style="visibility: hidden"></div>
+      <input
+        placeholder="What's your name?"
+        type="text"
+        name="fname"
+        id="input"
+        style="visibility: visible"
+        autocomplete="off"
+        autofocus
+      />
+    </div>
+
+    <script src="input.js"></script>
+    <script src="clock-min.js"></script>
+  </body>
+</html>
