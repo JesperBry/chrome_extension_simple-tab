@@ -1,8 +1,8 @@
 {
   "name": "Simple tab",
   "description": "Replace default new tab page in Chrome with a simple new tab page.",
-  "version": "2.0.0",
-  "manifest_version": 2,
+  "version": "3.0.0",
+  "manifest_version": 3,
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -11,9 +11,7 @@
   "chrome_url_overrides": {
     "newtab": "Index.html"
   },
-  "background": {
-    "scripts": ["clock-min.js"]
-  },
+  "background": {},
   "content_scripts": [
     {
       "js": ["clock-min.js"],
